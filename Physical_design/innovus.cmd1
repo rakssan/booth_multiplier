@@ -1,0 +1,75 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Thu Jun 25 13:30:13 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+getVersion
+getVersion
+win
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/vlsi22/day20/booth/Physical_design/booth_multiplier.enc.dat booth_multiplier
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+setLayerPreference Poly -isVisible 0
+setLayerPreference Cont -isVisible 0
+setLayerPreference Metal1 -isVisible 0
+setLayerPreference Via1 -isVisible 0
+setLayerPreference Metal2 -isVisible 0
+setLayerPreference Via2 -isVisible 0
+setLayerPreference Metal3 -isVisible 0
+setLayerPreference Via3 -isVisible 0
+setLayerPreference Metal4 -isVisible 0
+setLayerPreference Via4 -isVisible 0
+setLayerPreference Metal5 -isVisible 0
+setLayerPreference Via5 -isVisible 0
+setLayerPreference Metal6 -isVisible 0
+setLayerPreference Via6 -isVisible 0
+setLayerPreference Metal7 -isVisible 0
+setLayerPreference Via7 -isVisible 0
+setLayerPreference Metal8 -isVisible 0
+setLayerPreference Via8 -isVisible 0
+setLayerPreference Metal9 -isVisible 0
+setLayerPreference Metal9 -isVisible 1
+setLayerPreference Via8 -isVisible 1
+setLayerPreference Metal8 -isVisible 1
+setLayerPreference Metal7 -isVisible 1
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setDrawView place
+ctd_win -side none -id ctd_window
+fit
+selectObject IO_Pin clk
+zoomSelected
+deselectObject IO_Pin clk
+selectObject IO_Pin clk
+zoomSelected
+deselectAll
+selectObject IO_Pin clk
+deselectAll
+fit
+selectInst {M_temp_reg[3]}
+zoomSelected
+deselectAll
+fit
+fit
+setLayerPreference node_layer -isVisible 0
+setDrawView place
+setDrawView place
+setLayerPreference node_layer -isVisible 1

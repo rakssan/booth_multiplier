@@ -1,0 +1,1355 @@
+[06/24 12:02:01      0s] 
+[06/24 12:02:01      0s] Cadence Innovus(TM) Implementation System.
+[06/24 12:02:01      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[06/24 12:02:01      0s] 
+[06/24 12:02:01      0s] Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+[06/24 12:02:01      0s] Options:	
+[06/24 12:02:01      0s] Date:		Wed Jun 24 12:02:01 2026
+[06/24 12:02:01      0s] Host:		cadence (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (8cores*16cpus*Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz 16384KB)
+[06/24 12:02:01      0s] OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+[06/24 12:02:01      0s] 
+[06/24 12:02:01      0s] License:
+[06/24 12:02:01      0s] 		[12:02:01.095537] Configured Lic search path (21.01-s002): 5280@cadence
+
+[06/24 12:02:01      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[06/24 12:02:01      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[06/24 12:02:14     11s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+[06/24 12:02:16     14s] @(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+[06/24 12:02:16     14s] @(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+[06/24 12:02:16     14s] @(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+[06/24 12:02:16     14s] @(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+[06/24 12:02:16     14s] @(#)CDS: CPE v21.15-s076
+[06/24 12:02:16     14s] @(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+[06/24 12:02:16     14s] @(#)CDS: OA 22.60-p076 Wed May 18 13:45:29 2022
+[06/24 12:02:16     14s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[06/24 12:02:16     14s] @(#)CDS: RCDB 11.15.0
+[06/24 12:02:16     14s] @(#)CDS: STYLUS 21.12-s013_1 (08/15/2022 08:25 PDT)
+[06/24 12:02:16     14s] @(#)CDS: SystemPlanner-21.15Rel-8720 (21.15) (2022-08-22 18:31:54+0800)
+[06/24 12:02:16     14s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_1687900_cadence_vlsi22_YVbBty.
+
+[06/24 12:02:16     14s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[06/24 12:02:18     15s] 
+[06/24 12:02:18     15s] **INFO:  MMMC transition support version v31-84 
+[06/24 12:02:18     15s] 
+[06/24 12:02:18     15s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[06/24 12:02:18     15s] <CMD> suppressMessage ENCEXT-2799
+[06/24 12:02:18     16s] <CMD> getVersion
+[06/24 12:02:18     16s] <CMD> getVersion
+[06/24 12:02:18     16s] <CMD> getVersion
+[06/24 12:02:19     16s] [INFO] Loading PVS 22.20 fill procedures
+[06/24 12:02:19     16s] <CMD> win
+[06/24 13:29:13    355s] <CMD> encMessage warning 0
+[06/24 13:29:13    355s] Suppress "**WARN ..." messages.
+[06/24 13:29:13    355s] <CMD> encMessage debug 0
+[06/24 13:29:13    355s] <CMD> is_common_ui_mode
+[06/24 13:29:13    355s] <CMD> restoreDesign /home/vlsi21/day_19/booth/Pd/route.enc.dat booth_multiplier
+[06/24 13:29:13    355s] #% Begin load design ... (date=06/24 13:29:13, mem=1014.9M)
+[06/24 13:29:13    355s] Set Default Input Pin Transition as 0.1 ps.
+[06/24 13:29:14    356s] Loading design 'booth_multiplier' saved by 'Innovus' '21.15-s110_1' on 'Tue Jun 23 10:28:41 2026'.
+[06/24 13:29:14    356s] % Begin Load MMMC data ... (date=06/24 13:29:14, mem=1015.1M)
+[06/24 13:29:14    356s] % End Load MMMC data ... (date=06/24 13:29:14, total cpu=0:00:00.0, real=0:00:00.0, peak res=1015.6M, current mem=1015.6M)
+[06/24 13:29:14    356s] 
+[06/24 13:29:14    356s] Loading LEF file /home/vlsi21/day_19/booth/Pd/route.enc.dat/libs/lef/gsclib090_translated.lef ...
+[06/24 13:29:14    356s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[06/24 13:29:14    356s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[06/24 13:29:14    356s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[06/24 13:29:14    356s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[06/24 13:29:14    356s] Set DBUPerIGU to M2 pitch 580.
+[06/24 13:29:14    356s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[06/24 13:29:14    356s] Type 'man IMPLF-200' for more detail.
+[06/24 13:29:14    356s] 
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[06/24 13:29:14    356s] Loading view definition file from /home/vlsi21/day_19/booth/Pd/route.enc.dat/viewDefinition.tcl
+[06/24 13:29:14    356s] Reading slow timing library '/home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib' ...
+[06/24 13:29:15    356s] Read 479 cells in library 'slow' 
+[06/24 13:29:15    356s] Ending "PreSetAnalysisView" (total cpu=0:00:00.5, real=0:00:01.0, peak res=1083.8M, current mem=1033.8M)
+[06/24 13:29:15    356s] *** End library_loading (cpu=0.01min, real=0.02min, mem=22.0M, fe_cpu=5.95min, fe_real=87.23min, fe_mem=1048.6M) ***
+[06/24 13:29:15    356s] % Begin Load netlist data ... (date=06/24 13:29:15, mem=1032.8M)
+[06/24 13:29:15    356s] *** Begin netlist parsing (mem=1048.6M) ***
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[06/24 13:29:15    356s] Type 'man IMPVL-159' for more detail.
+[06/24 13:29:15    356s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[06/24 13:29:15    356s] To increase the message display limit, refer to the product command reference manual.
+[06/24 13:29:15    356s] Created 479 new cells from 1 timing libraries.
+[06/24 13:29:15    356s] Reading netlist ...
+[06/24 13:29:15    356s] Backslashed names will retain backslash and a trailing blank character.
+[06/24 13:29:15    356s] Reading verilogBinary netlist '/home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.v.bin'
+[06/24 13:29:15    356s] 
+[06/24 13:29:15    356s] *** Memory Usage v#1 (Current mem = 1055.641M, initial mem = 483.863M) ***
+[06/24 13:29:15    356s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=1055.6M) ***
+[06/24 13:29:15    356s] % End Load netlist data ... (date=06/24 13:29:15, total cpu=0:00:00.0, real=0:00:00.0, peak res=1041.8M, current mem=1041.8M)
+[06/24 13:29:15    356s] Top level cell is booth_multiplier.
+[06/24 13:29:15    357s] Hooked 479 DB cells to tlib cells.
+[06/24 13:29:15    357s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1048.0M, current mem=1048.0M)
+[06/24 13:29:15    357s] Starting recursive module instantiation check.
+[06/24 13:29:15    357s] No recursion found.
+[06/24 13:29:15    357s] Building hierarchical netlist for Cell booth_multiplier ...
+[06/24 13:29:15    357s] *** Netlist is unique.
+[06/24 13:29:15    357s] Setting Std. cell height to 5220 DBU (smallest netlist inst).
+[06/24 13:29:15    357s] ** info: there are 488 modules.
+[06/24 13:29:15    357s] ** info: there are 142 stdCell insts.
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] *** Memory Usage v#1 (Current mem = 1101.055M, initial mem = 483.863M) ***
+[06/24 13:29:15    357s] *info: set bottom ioPad orient R0
+[06/24 13:29:15    357s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/24 13:29:15    357s] Type 'man IMPFP-3961' for more detail.
+[06/24 13:29:15    357s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/24 13:29:15    357s] Type 'man IMPFP-3961' for more detail.
+[06/24 13:29:15    357s] Horizontal Layer M1 offset = 290 (derived)
+[06/24 13:29:15    357s] Vertical Layer M2 offset = 290 (derived)
+[06/24 13:29:15    357s] Start create_tracks
+[06/24 13:29:15    357s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[06/24 13:29:15    357s] Loading preference file /home/vlsi21/day_19/booth/Pd/route.enc.dat/gui.pref.tcl ...
+[06/24 13:29:15    357s] **WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+[06/24 13:29:15    357s] Type 'man IMPOPT-3602' for more detail.
+[06/24 13:29:15    357s] Effort level <high> specified for reg2reg path_group
+[06/24 13:29:15    357s] addRing command will ignore shorts while creating rings.
+[06/24 13:29:15    357s] addRing command will disallow rings to go over rows.
+[06/24 13:29:15    357s] addRing command will consider rows while creating rings.
+[06/24 13:29:15    357s] The ring targets are set to core/block ring wires.
+[06/24 13:29:15    357s] addStripe will allow jog to connect padcore ring and block ring.
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] Stripes will not extend to closest target.
+[06/24 13:29:15    357s] When breaking rings, the power planner will consider the existence of blocks.
+[06/24 13:29:15    357s] addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+[06/24 13:29:15    357s] The entire stripe set will break at the domain if one of the nets is not in the domain.
+[06/24 13:29:15    357s] Stripes will not be created over regions without power planning wires.
+[06/24 13:29:15    357s] Offset for stripe breaking is set to 0.
+[06/24 13:29:15    357s] Stripes will stop at the boundary of the specified area.
+[06/24 13:29:15    357s] The power planner will set stripe antenna targets to none (no trimming allowed).
+[06/24 13:29:15    357s] Change floorplan default-technical-site to 'gsclib090site'.
+[06/24 13:29:15    357s] Extraction setup Delayed 
+[06/24 13:29:15    357s] *Info: initialize multi-corner CTS.
+[06/24 13:29:15    357s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1313.6M, current mem=1078.2M)
+[06/24 13:29:15    357s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[06/24 13:29:15    357s] Summary for sequential cells identification: 
+[06/24 13:29:15    357s]   Identified SBFF number: 112
+[06/24 13:29:15    357s]   Identified MBFF number: 0
+[06/24 13:29:15    357s]   Identified SB Latch number: 0
+[06/24 13:29:15    357s]   Identified MB Latch number: 0
+[06/24 13:29:15    357s]   Not identified SBFF number: 8
+[06/24 13:29:15    357s]   Not identified MBFF number: 0
+[06/24 13:29:15    357s]   Not identified SB Latch number: 0
+[06/24 13:29:15    357s]   Not identified MB Latch number: 0
+[06/24 13:29:15    357s]   Number of sequential cells which are not FFs: 32
+[06/24 13:29:15    357s] Total number of combinational cells: 317
+[06/24 13:29:15    357s] Total number of sequential cells: 152
+[06/24 13:29:15    357s] Total number of tristate cells: 10
+[06/24 13:29:15    357s] Total number of level shifter cells: 0
+[06/24 13:29:15    357s] Total number of power gating cells: 0
+[06/24 13:29:15    357s] Total number of isolation cells: 0
+[06/24 13:29:15    357s] Total number of power switch cells: 0
+[06/24 13:29:15    357s] Total number of pulse generator cells: 0
+[06/24 13:29:15    357s] Total number of always on buffers: 0
+[06/24 13:29:15    357s] Total number of retention cells: 0
+[06/24 13:29:15    357s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[06/24 13:29:15    357s] Total number of usable buffers: 16
+[06/24 13:29:15    357s] List of unusable buffers:
+[06/24 13:29:15    357s] Total number of unusable buffers: 0
+[06/24 13:29:15    357s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[06/24 13:29:15    357s] Total number of usable inverters: 19
+[06/24 13:29:15    357s] List of unusable inverters:
+[06/24 13:29:15    357s] Total number of unusable inverters: 0
+[06/24 13:29:15    357s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[06/24 13:29:15    357s] Total number of identified usable delay cells: 8
+[06/24 13:29:15    357s] List of identified unusable delay cells:
+[06/24 13:29:15    357s] Total number of identified unusable delay cells: 0
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Deleting Cell Server Begin ...
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Deleting Cell Server End ...
+[06/24 13:29:15    357s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1323.4M, current mem=1323.4M)
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[06/24 13:29:15    357s] Summary for sequential cells identification: 
+[06/24 13:29:15    357s]   Identified SBFF number: 112
+[06/24 13:29:15    357s]   Identified MBFF number: 0
+[06/24 13:29:15    357s]   Identified SB Latch number: 0
+[06/24 13:29:15    357s]   Identified MB Latch number: 0
+[06/24 13:29:15    357s]   Not identified SBFF number: 8
+[06/24 13:29:15    357s]   Not identified MBFF number: 0
+[06/24 13:29:15    357s]   Not identified SB Latch number: 0
+[06/24 13:29:15    357s]   Not identified MB Latch number: 0
+[06/24 13:29:15    357s]   Number of sequential cells which are not FFs: 32
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] Trim Metal Layers:
+[06/24 13:29:15    357s]  Visiting view : worst_case
+[06/24 13:29:15    357s]    : PowerDomain = none : Weighted F : unweighted  = 35.90 (1.000) with rcCorner = 0
+[06/24 13:29:15    357s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/24 13:29:15    357s]  Visiting view : best_case
+[06/24 13:29:15    357s]    : PowerDomain = none : Weighted F : unweighted  = 35.90 (1.000) with rcCorner = 0
+[06/24 13:29:15    357s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Deleting Cell Server Begin ...
+[06/24 13:29:15    357s] 
+[06/24 13:29:15    357s] TimeStamp Deleting Cell Server End ...
+[06/24 13:29:15    357s] Reading floorplan file - /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.fp.gz (mem = 1350.2M).
+[06/24 13:29:15    357s] % Begin Load floorplan data ... (date=06/24 13:29:15, mem=1324.1M)
+[06/24 13:29:15    357s] *info: reset 156 existing net BottomPreferredLayer and AvoidDetour
+[06/24 13:29:15    357s] Deleting old partition specification.
+[06/24 13:29:16    357s] Set FPlanBox to (0 0 107880 105560)
+[06/24 13:29:16    357s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/24 13:29:16    357s] Type 'man IMPFP-3961' for more detail.
+[06/24 13:29:16    357s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/24 13:29:16    357s] Type 'man IMPFP-3961' for more detail.
+[06/24 13:29:16    357s] Horizontal Layer M1 offset = 290 (derived)
+[06/24 13:29:16    357s] Vertical Layer M2 offset = 290 (derived)
+[06/24 13:29:16    357s] Start create_tracks
+[06/24 13:29:16    357s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[06/24 13:29:16    357s]  ... processed partition successfully.
+[06/24 13:29:16    357s] Reading binary special route file /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.fp.spr.gz (Created by Innovus v21.15-s110_1 on Tue Jun 23 10:28:40 2026, version: 1)
+[06/24 13:29:16    357s] Convert 0 swires and 0 svias from compressed groups
+[06/24 13:29:16    357s] 28 swires and 86 svias were compressed
+[06/24 13:29:16    357s] 69 swires and 250 svias were decompressed from small or sparse groups
+[06/24 13:29:16    357s] Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1324.1M, current mem=1324.1M)
+[06/24 13:29:16    357s] Extracting standard cell pins and blockage ...... 
+[06/24 13:29:16    357s] Pin and blockage extraction finished
+[06/24 13:29:16    357s] % End Load floorplan data ... (date=06/24 13:29:16, total cpu=0:00:00.1, real=0:00:01.0, peak res=1326.8M, current mem=1326.7M)
+[06/24 13:29:16    357s] Reading congestion map file /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.route.congmap.gz ...
+[06/24 13:29:16    357s] % Begin Load SymbolTable ... (date=06/24 13:29:16, mem=1326.7M)
+[06/24 13:29:16    357s] routingBox: (0 0) (107880 105560)
+[06/24 13:29:16    357s] coreBox:    (16240 16240) (91640 89320)
+[06/24 13:29:16    357s] Un-suppress "**WARN ..." messages.
+[06/24 13:29:16    357s] % End Load SymbolTable ... (date=06/24 13:29:16, total cpu=0:00:00.0, real=0:00:00.0, peak res=1327.8M, current mem=1327.8M)
+[06/24 13:29:16    357s] Loading place ...
+[06/24 13:29:16    357s] % Begin Load placement data ... (date=06/24 13:29:16, mem=1327.8M)
+[06/24 13:29:16    357s] Reading placement file - /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.place.gz.
+[06/24 13:29:16    357s] ** Reading stdCellPlacement_binary (Created by Innovus v21.15-s110_1 on Tue Jun 23 10:28:40 2026, version# 2) ...
+[06/24 13:29:16    357s] Read Views for adaptive view pruning ...
+[06/24 13:29:16    357s] Read 0 views from Binary DB for adaptive view pruning
+[06/24 13:29:16    357s] *** Checked 2 GNC rules.
+[06/24 13:29:16    357s] *** applyConnectGlobalNets disabled.
+[06/24 13:29:16    357s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1352.2M) ***
+[06/24 13:29:16    357s] Total net length = 1.541e+03 (7.788e+02 7.623e+02) (ext = 4.605e+02)
+[06/24 13:29:16    357s] % End Load placement data ... (date=06/24 13:29:16, total cpu=0:00:00.0, real=0:00:00.0, peak res=1328.9M, current mem=1328.8M)
+[06/24 13:29:16    357s] Reading PG file /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on       Tue Jun 23 10:28:40 2026)
+[06/24 13:29:16    357s] *** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1349.2M) ***
+[06/24 13:29:16    357s] % Begin Load routing data ... (date=06/24 13:29:16, mem=1329.2M)
+[06/24 13:29:16    357s] Reading routing file - /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.route.gz.
+[06/24 13:29:16    357s] Reading Innovus routing data (Created by Innovus v21.15-s110_1 on Tue Jun 23 10:28:40 2026 Format: 20.1) ...
+[06/24 13:29:16    357s] *** Total 155 nets are successfully restored.
+[06/24 13:29:16    357s] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1349.2M) ***
+[06/24 13:29:16    357s] % End Load routing data ... (date=06/24 13:29:16, total cpu=0:00:00.0, real=0:00:00.0, peak res=1330.4M, current mem=1329.7M)
+[06/24 13:29:16    357s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[06/24 13:29:16    357s] Reading property file /home/vlsi21/day_19/booth/Pd/route.enc.dat/booth_multiplier.prop
+[06/24 13:29:16    357s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1352.2M) ***
+[06/24 13:29:16    357s] Set Default Input Pin Transition as 0.1 ps.
+[06/24 13:29:17    358s] eee: readRCCornerMetaData, file read unsuccessful: /home/vlsi21/day_19/booth/Pd/route.enc.dat/extraction/extractionMetaData.gz
+[06/24 13:29:17    358s] Extraction setup Started 
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] Trim Metal Layers:
+[06/24 13:29:17    358s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[06/24 13:29:17    358s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[06/24 13:29:17    358s] Type 'man IMPEXT-6202' for more detail.
+[06/24 13:29:17    358s] Reading Capacitance Table File /home/vlsi21/day_19/booth/Pd/route.enc.dat/libs/mmmc/gpdk090.lef.extended.CapTbl ...
+[06/24 13:29:17    358s] Cap table was created using Encounter 05.20-s112_1.
+[06/24 13:29:17    358s] Process name: gpdk090_9l.
+[06/24 13:29:17    358s] Importing multi-corner RC tables ... 
+[06/24 13:29:17    358s] Summary of Active RC-Corners : 
+[06/24 13:29:17    358s]  
+[06/24 13:29:17    358s]  Analysis View: worst_case
+[06/24 13:29:17    358s]     RC-Corner Name        : rc_corner
+[06/24 13:29:17    358s]     RC-Corner Index       : 0
+[06/24 13:29:17    358s]     RC-Corner Temperature : 125 Celsius
+[06/24 13:29:17    358s]     RC-Corner Cap Table   : '/home/vlsi21/day_19/booth/Pd/route.enc.dat/libs/mmmc/gpdk090.lef.extended.CapTbl'
+[06/24 13:29:17    358s]     RC-Corner PreRoute Res Factor         : 1
+[06/24 13:29:17    358s]     RC-Corner PreRoute Cap Factor         : 1
+[06/24 13:29:17    358s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[06/24 13:29:17    358s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[06/24 13:29:17    358s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[06/24 13:29:17    358s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PostRoute Clock coupling capacitance Factor : 1 {1 1 1} 
+[06/24 13:29:17    358s]     RC-Corner Technology file: '/home/vlsi21/day_19/booth/Pd/route.enc.dat/libs/mmmc/rc_corner/gpdk090_9l.tch'
+[06/24 13:29:17    358s]  
+[06/24 13:29:17    358s]  Analysis View: best_case
+[06/24 13:29:17    358s]     RC-Corner Name        : rc_corner
+[06/24 13:29:17    358s]     RC-Corner Index       : 0
+[06/24 13:29:17    358s]     RC-Corner Temperature : 125 Celsius
+[06/24 13:29:17    358s]     RC-Corner Cap Table   : '/home/vlsi21/day_19/booth/Pd/route.enc.dat/libs/mmmc/gpdk090.lef.extended.CapTbl'
+[06/24 13:29:17    358s]     RC-Corner PreRoute Res Factor         : 1
+[06/24 13:29:17    358s]     RC-Corner PreRoute Cap Factor         : 1
+[06/24 13:29:17    358s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[06/24 13:29:17    358s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[06/24 13:29:17    358s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[06/24 13:29:17    358s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[06/24 13:29:17    358s]     RC-Corner PostRoute Clock coupling capacitance Factor : 1 {1 1 1} 
+[06/24 13:29:17    358s]     RC-Corner Technology file: '/home/vlsi21/day_19/booth/Pd/route.enc.dat/libs/mmmc/rc_corner/gpdk090_9l.tch'
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] Trim Metal Layers:
+[06/24 13:29:17    358s] LayerId::1 widthSet size::4
+[06/24 13:29:17    358s] LayerId::2 widthSet size::4
+[06/24 13:29:17    358s] LayerId::3 widthSet size::4
+[06/24 13:29:17    358s] LayerId::4 widthSet size::4
+[06/24 13:29:17    358s] LayerId::5 widthSet size::4
+[06/24 13:29:17    358s] LayerId::6 widthSet size::4
+[06/24 13:29:17    358s] LayerId::7 widthSet size::4
+[06/24 13:29:17    358s] LayerId::8 widthSet size::4
+[06/24 13:29:17    358s] LayerId::9 widthSet size::3
+[06/24 13:29:17    358s] Updating RC grid for preRoute extraction ...
+[06/24 13:29:17    358s] eee: pegSigSF::1.070000
+[06/24 13:29:17    358s] Initializing multi-corner capacitance tables ... 
+[06/24 13:29:17    358s] Initializing multi-corner resistance tables ...
+[06/24 13:29:17    358s] eee: l::1 avDens::0.075777 usedTrk::27.279694 availTrk::360.000000 sigTrk::27.279694
+[06/24 13:29:17    358s] eee: l::2 avDens::0.067460 usedTrk::36.428352 availTrk::540.000000 sigTrk::36.428352
+[06/24 13:29:17    358s] eee: l::3 avDens::0.061905 usedTrk::39.000000 availTrk::630.000000 sigTrk::39.000000
+[06/24 13:29:17    358s] eee: l::4 avDens::0.028380 usedTrk::10.216667 availTrk::360.000000 sigTrk::10.216667
+[06/24 13:29:17    358s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:29:17    358s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:29:17    358s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:29:17    358s] eee: l::8 avDens::0.178008 usedTrk::21.360920 availTrk::120.000000 sigTrk::21.360920
+[06/24 13:29:17    358s] eee: l::9 avDens::0.182452 usedTrk::21.894253 availTrk::120.000000 sigTrk::21.894253
+[06/24 13:29:17    358s] {RT rc_corner 0 9 9 {8 0} 1}
+[06/24 13:29:17    358s] eee: LAM: n=40 LLS=2-3 HLS=3-5 rDens=0.000000 uaWl=1.000000 uaWlH=0.057545 aWlH=0.000000 lMod=0 pMax=0.807900 pMod=83 wcR=0.700000 newSi=0.001600 wHLS=1.750000 siPrev=0 viaL=0.000000
+[06/24 13:29:17    358s] Start generating vias ..
+[06/24 13:29:17    358s] #create default rule from bind_ndr_rule rule=0x7f627b25b450 0x7f6263c78ff0
+[06/24 13:29:17    358s] ### import design signature (1): route=1 fixed_route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0 del_dirty_area=0 cell=0 placement=0 pin_access=1 inst_pattern=1
+[06/24 13:29:17    358s] #Skip building auto via since it is not turned on.
+[06/24 13:29:17    358s] Extracting standard cell pins and blockage ...... 
+[06/24 13:29:17    358s] Pin and blockage extraction finished
+[06/24 13:29:17    358s] Via generation completed.
+[06/24 13:29:17    358s] % Begin Load power constraints ... (date=06/24 13:29:17, mem=1345.2M)
+[06/24 13:29:17    358s] % End Load power constraints ... (date=06/24 13:29:17, total cpu=0:00:00.0, real=0:00:00.0, peak res=1345.2M, current mem=1345.2M)
+[06/24 13:29:17    358s] % Begin load AAE data ... (date=06/24 13:29:17, mem=1373.7M)
+[06/24 13:29:17    358s] AAE DB initialization (MEM=1418.22 CPU=0:00:00.0 REAL=0:00:00.0) 
+[06/24 13:29:17    358s] % End load AAE data ... (date=06/24 13:29:17, total cpu=0:00:00.6, real=0:00:00.0, peak res=1380.1M, current mem=1380.1M)
+[06/24 13:29:17    358s] Restoring CCOpt config...
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[06/24 13:29:17    358s] Summary for sequential cells identification: 
+[06/24 13:29:17    358s]   Identified SBFF number: 112
+[06/24 13:29:17    358s]   Identified MBFF number: 0
+[06/24 13:29:17    358s]   Identified SB Latch number: 0
+[06/24 13:29:17    358s]   Identified MB Latch number: 0
+[06/24 13:29:17    358s]   Not identified SBFF number: 8
+[06/24 13:29:17    358s]   Not identified MBFF number: 0
+[06/24 13:29:17    358s]   Not identified SB Latch number: 0
+[06/24 13:29:17    358s]   Not identified MB Latch number: 0
+[06/24 13:29:17    358s]   Number of sequential cells which are not FFs: 32
+[06/24 13:29:17    358s]  Visiting view : worst_case
+[06/24 13:29:17    358s]    : PowerDomain = none : Weighted F : unweighted  = 36.00 (1.000) with rcCorner = 0
+[06/24 13:29:17    358s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/24 13:29:17    358s]  Visiting view : best_case
+[06/24 13:29:17    358s]    : PowerDomain = none : Weighted F : unweighted  = 36.00 (1.000) with rcCorner = 0
+[06/24 13:29:17    358s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[06/24 13:29:17    358s]   Extracting original clock gating for clk...
+[06/24 13:29:17    358s]     clock_tree clk contains 15 sinks and 0 clock gates.
+[06/24 13:29:17    358s]   Extracting original clock gating for clk done.
+[06/24 13:29:17    358s]   The skew group clk/sdc was created. It contains 15 sinks and 1 sources.
+[06/24 13:29:17    358s] Restoring CCOpt config done.
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Deleting Cell Server Begin ...
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Deleting Cell Server End ...
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[06/24 13:29:17    358s] Summary for sequential cells identification: 
+[06/24 13:29:17    358s]   Identified SBFF number: 112
+[06/24 13:29:17    358s]   Identified MBFF number: 0
+[06/24 13:29:17    358s]   Identified SB Latch number: 0
+[06/24 13:29:17    358s]   Identified MB Latch number: 0
+[06/24 13:29:17    358s]   Not identified SBFF number: 8
+[06/24 13:29:17    358s]   Not identified MBFF number: 0
+[06/24 13:29:17    358s]   Not identified SB Latch number: 0
+[06/24 13:29:17    358s]   Not identified MB Latch number: 0
+[06/24 13:29:17    358s]   Number of sequential cells which are not FFs: 32
+[06/24 13:29:17    358s] Total number of combinational cells: 317
+[06/24 13:29:17    358s] Total number of sequential cells: 152
+[06/24 13:29:17    358s] Total number of tristate cells: 10
+[06/24 13:29:17    358s] Total number of level shifter cells: 0
+[06/24 13:29:17    358s] Total number of power gating cells: 0
+[06/24 13:29:17    358s] Total number of isolation cells: 0
+[06/24 13:29:17    358s] Total number of power switch cells: 0
+[06/24 13:29:17    358s] Total number of pulse generator cells: 0
+[06/24 13:29:17    358s] Total number of always on buffers: 0
+[06/24 13:29:17    358s] Total number of retention cells: 0
+[06/24 13:29:17    358s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[06/24 13:29:17    358s] Total number of usable buffers: 16
+[06/24 13:29:17    358s] List of unusable buffers:
+[06/24 13:29:17    358s] Total number of unusable buffers: 0
+[06/24 13:29:17    358s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[06/24 13:29:17    358s] Total number of usable inverters: 19
+[06/24 13:29:17    358s] List of unusable inverters:
+[06/24 13:29:17    358s] Total number of unusable inverters: 0
+[06/24 13:29:17    358s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[06/24 13:29:17    358s] Total number of identified usable delay cells: 8
+[06/24 13:29:17    358s] List of identified unusable delay cells:
+[06/24 13:29:17    358s] Total number of identified unusable delay cells: 0
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Deleting Cell Server Begin ...
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] TimeStamp Deleting Cell Server End ...
+[06/24 13:29:17    358s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version . They will be removed in the next release. 
+[06/24 13:29:17    358s] timing_enable_separate_device_slew_effect_sensitivities
+[06/24 13:29:17    358s] #% End load design ... (date=06/24 13:29:17, total cpu=0:00:03.2, real=0:00:04.0, peak res=1404.2M, current mem=1385.1M)
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] *** Summary of all messages that are not suppressed in this session:
+[06/24 13:29:17    358s] Severity  ID               Count  Summary                                  
+[06/24 13:29:17    358s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[06/24 13:29:17    358s] WARNING   IMPLF-105            2  The layer '%s' specified in SAMENET spac...
+[06/24 13:29:17    358s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[06/24 13:29:17    358s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[06/24 13:29:17    358s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[06/24 13:29:17    358s] WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+[06/24 13:29:17    358s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[06/24 13:29:17    358s] *** Message Summary: 968 warning(s), 0 error(s)
+[06/24 13:29:17    358s] 
+[06/24 13:29:17    358s] <CMD> setDrawView fplan
+[06/24 13:29:17    358s] <CMD> encMessage warning 1
+[06/24 13:29:17    358s] <CMD> encMessage debug 0
+[06/24 13:29:26    359s] <CMD> setDrawView place
+[06/24 13:29:28    359s] <CMD> fit
+[06/24 13:31:56    393s] <CMD> saveDesign ../day20/booth/booth_multiplier
+[06/24 13:31:56    393s] #% Begin save design ... (date=06/24 13:31:56, mem=1497.3M)
+[06/24 13:31:56    393s] % Begin Save ccopt configuration ... (date=06/24 13:31:56, mem=1497.3M)
+[06/24 13:31:56    393s] % End Save ccopt configuration ... (date=06/24 13:31:56, total cpu=0:00:00.0, real=0:00:00.0, peak res=1498.0M, current mem=1498.0M)
+[06/24 13:31:56    393s] % Begin Save netlist data ... (date=06/24 13:31:56, mem=1518.8M)
+[06/24 13:31:56    393s] Writing Binary DB to ../day20/booth/booth_multiplier.dat/booth_multiplier.v.bin in single-threaded mode...
+[06/24 13:31:56    393s] % End Save netlist data ... (date=06/24 13:31:56, total cpu=0:00:00.0, real=0:00:00.0, peak res=1524.8M, current mem=1518.9M)
+[06/24 13:31:56    393s] Saving symbol-table file ...
+[06/24 13:31:57    393s] Saving congestion map file ../day20/booth/booth_multiplier.dat/booth_multiplier.route.congmap.gz ...
+[06/24 13:31:57    393s] % Begin Save AAE data ... (date=06/24 13:31:57, mem=1519.4M)
+[06/24 13:31:57    393s] Saving AAE Data ...
+[06/24 13:31:57    393s] % End Save AAE data ... (date=06/24 13:31:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=1519.4M, current mem=1519.4M)
+[06/24 13:31:57    393s] Saving preference file ../day20/booth/booth_multiplier.dat/gui.pref.tcl ...
+[06/24 13:31:57    393s] Saving mode setting ...
+[06/24 13:31:57    393s] Saving global file ...
+[06/24 13:31:57    393s] % Begin Save floorplan data ... (date=06/24 13:31:57, mem=1521.6M)
+[06/24 13:31:57    393s] Saving floorplan file ...
+[06/24 13:31:57    393s] Convert 0 swires and 0 svias from compressed groups
+[06/24 13:31:57    393s] % End Save floorplan data ... (date=06/24 13:31:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=1522.3M, current mem=1522.3M)
+[06/24 13:31:57    393s] Saving PG file ../day20/booth/booth_multiplier.dat/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on Wed Jun 24 13:31:57 2026)
+[06/24 13:31:57    393s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1666.6M) ***
+[06/24 13:31:57    393s] Saving Drc markers ...
+[06/24 13:31:57    393s] ... No Drc file written since there is no markers found.
+[06/24 13:31:57    393s] % Begin Save placement data ... (date=06/24 13:31:57, mem=1522.3M)
+[06/24 13:31:57    393s] ** Saving stdCellPlacement_binary (version# 2) ...
+[06/24 13:31:57    393s] Save Adaptive View Pruning View Names to Binary file
+[06/24 13:31:57    393s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1669.6M) ***
+[06/24 13:31:57    394s] % End Save placement data ... (date=06/24 13:31:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=1523.0M, current mem=1523.0M)
+[06/24 13:31:57    394s] % Begin Save routing data ... (date=06/24 13:31:57, mem=1523.0M)
+[06/24 13:31:57    394s] Saving route file ...
+[06/24 13:31:57    394s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1666.6M) ***
+[06/24 13:31:57    394s] % End Save routing data ... (date=06/24 13:31:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=1523.2M, current mem=1523.2M)
+[06/24 13:31:57    394s] Saving property file ../day20/booth/booth_multiplier.dat/booth_multiplier.prop
+[06/24 13:31:57    394s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1669.6M) ***
+[06/24 13:31:57    394s] % Begin Save power constraints data ... (date=06/24 13:31:57, mem=1524.1M)
+[06/24 13:31:57    394s] % End Save power constraints data ... (date=06/24 13:31:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=1524.1M, current mem=1524.1M)
+[06/24 13:31:58    394s] Generated self-contained design booth_multiplier.dat
+[06/24 13:31:58    394s] #% End save design ... (date=06/24 13:31:58, total cpu=0:00:00.4, real=0:00:02.0, peak res=1553.3M, current mem=1525.2M)
+[06/24 13:31:58    394s] *** Message Summary: 0 warning(s), 0 error(s)
+[06/24 13:31:58    394s] 
+[06/24 13:31:58    394s] <CMD> selectWire 2.0100 20.9900 8.1200 21.3500 1 VSS
+[06/24 13:33:22    405s] <CMD> streamOut booth_route.gds -libName DesignLib -units 2000 -mode ALL
+[06/24 13:33:22    405s] Parse flat map file...
+[06/24 13:33:22    405s] Writing GDSII file ...
+[06/24 13:33:22    405s] 	****** db unit per micron = 2000 ******
+[06/24 13:33:22    405s] 	****** output gds2 file unit per micron = 2000 ******
+[06/24 13:33:22    405s] 	****** unit scaling factor = 1 ******
+[06/24 13:33:22    405s] Output for instance
+[06/24 13:33:22    405s] Output for bump
+[06/24 13:33:22    405s] Output for physical terminals
+[06/24 13:33:22    405s] Output for logical terminals
+[06/24 13:33:22    405s] Output for regular nets
+[06/24 13:33:22    405s] Output for special nets and metal fills
+[06/24 13:33:22    405s] Output for via structure generation total number 15
+[06/24 13:33:22    405s] Statistics for GDS generated (version 3)
+[06/24 13:33:22    405s] ----------------------------------------
+[06/24 13:33:22    405s] Stream Out Layer Mapping Information:
+[06/24 13:33:22    405s] GDS Layer Number          GDS Layer Name
+[06/24 13:33:22    405s] ----------------------------------------
+[06/24 13:33:22    405s]     191                             COMP
+[06/24 13:33:22    405s]     192                          DIEAREA
+[06/24 13:33:22    405s]     181                           Metal9
+[06/24 13:33:22    405s]     179                           Metal9
+[06/24 13:33:22    405s]     178                           Metal9
+[06/24 13:33:22    405s]     177                           Metal9
+[06/24 13:33:22    405s]     176                           Metal9
+[06/24 13:33:22    405s]     175                             Via8
+[06/24 13:33:22    405s]     174                             Via8
+[06/24 13:33:22    405s]     170                             Via8
+[06/24 13:33:22    405s]     160                           Metal8
+[06/24 13:33:22    405s]     158                           Metal8
+[06/24 13:33:22    405s]     157                           Metal8
+[06/24 13:33:22    405s]     156                           Metal8
+[06/24 13:33:22    405s]     155                           Metal8
+[06/24 13:33:22    405s]     154                             Via7
+[06/24 13:33:22    405s]     153                             Via7
+[06/24 13:33:22    405s]     149                             Via7
+[06/24 13:33:22    405s]     139                           Metal7
+[06/24 13:33:22    405s]     137                           Metal7
+[06/24 13:33:22    405s]     136                           Metal7
+[06/24 13:33:22    405s]     135                           Metal7
+[06/24 13:33:22    405s]     134                           Metal7
+[06/24 13:33:22    405s]     133                             Via6
+[06/24 13:33:22    405s]     132                             Via6
+[06/24 13:33:22    405s]     131                             Via6
+[06/24 13:33:22    405s]     130                             Via6
+[06/24 13:33:22    405s]     129                             Via6
+[06/24 13:33:22    405s]     128                             Via6
+[06/24 13:33:22    405s]     127                             Via6
+[06/24 13:33:22    405s]     122                           Metal6
+[06/24 13:33:22    405s]     121                           Metal6
+[06/24 13:33:22    405s]     120                           Metal6
+[06/24 13:33:22    405s]     119                           Metal6
+[06/24 13:33:22    405s]     118                           Metal6
+[06/24 13:33:22    405s]     53                            Metal3
+[06/24 13:33:22    405s]     52                            Metal3
+[06/24 13:33:22    405s]     185                           Metal9
+[06/24 13:33:22    405s]     48                              Via2
+[06/24 13:33:22    405s]     29                            Metal2
+[06/24 13:33:22    405s]     180                           Metal9
+[06/24 13:33:22    405s]     47                              Via2
+[06/24 13:33:22    405s]     182                           Metal9
+[06/24 13:33:22    405s]     44                              Via2
+[06/24 13:33:22    405s]     43                              Via2
+[06/24 13:33:22    405s]     172                             Via8
+[06/24 13:33:22    405s]     38                            Metal2
+[06/24 13:33:22    405s]     95                            Metal5
+[06/24 13:33:22    405s]     36                            Metal2
+[06/24 13:33:22    405s]     93                            Metal5
+[06/24 13:33:22    405s]     112                             Via5
+[06/24 13:33:22    405s]     55                            Metal3
+[06/24 13:33:22    405s]     113                           Metal6
+[06/24 13:33:22    405s]     32                            Metal2
+[06/24 13:33:22    405s]     54                            Metal3
+[06/24 13:33:22    405s]     31                            Metal2
+[06/24 13:33:22    405s]     107                             Via5
+[06/24 13:33:22    405s]     30                            Metal2
+[06/24 13:33:22    405s]     49                              Via2
+[06/24 13:33:22    405s]     106                             Via5
+[06/24 13:33:22    405s]     33                            Metal2
+[06/24 13:33:22    405s]     109                             Via5
+[06/24 13:33:22    405s]     10                            Metal1
+[06/24 13:33:22    405s]     86                              Via4
+[06/24 13:33:22    405s]     50                            Metal3
+[06/24 13:33:22    405s]     69                              Via3
+[06/24 13:33:22    405s]     143                           Metal7
+[06/24 13:33:22    405s]     6                               Cont
+[06/24 13:33:22    405s]     169                             Via8
+[06/24 13:33:22    405s]     35                            Metal2
+[06/24 13:33:22    405s]     8                             Metal1
+[06/24 13:33:22    405s]     164                           Metal8
+[06/24 13:33:22    405s]     27                              Via1
+[06/24 13:33:22    405s]     141                           Metal7
+[06/24 13:33:22    405s]     3                               Cont
+[06/24 13:33:22    405s]     51                            Metal3
+[06/24 13:33:22    405s]     70                              Via3
+[06/24 13:33:22    405s]     7                               Cont
+[06/24 13:33:22    405s]     64                              Via3
+[06/24 13:33:22    405s]     173                             Via8
+[06/24 13:33:22    405s]     34                            Metal2
+[06/24 13:33:22    405s]     92                            Metal5
+[06/24 13:33:22    405s]     111                             Via5
+[06/24 13:33:22    405s]     11                            Metal1
+[06/24 13:33:22    405s]     142                           Metal7
+[06/24 13:33:22    405s]     4                               Cont
+[06/24 13:33:22    405s]     9                             Metal1
+[06/24 13:33:22    405s]     28                              Via1
+[06/24 13:33:22    405s]     85                              Via4
+[06/24 13:33:22    405s]     138                           Metal7
+[06/24 13:33:22    405s]     5                               Cont
+[06/24 13:33:22    405s]     12                            Metal1
+[06/24 13:33:22    405s]     88                              Via4
+[06/24 13:33:22    405s]     183                           Metal9
+[06/24 13:33:22    405s]     45                              Via2
+[06/24 13:33:22    405s]     22                              Via1
+[06/24 13:33:22    405s]     152                             Via7
+[06/24 13:33:22    405s]     13                            Metal1
+[06/24 13:33:22    405s]     71                            Metal4
+[06/24 13:33:22    405s]     90                              Via4
+[06/24 13:33:22    405s]     184                           Metal9
+[06/24 13:33:22    405s]     46                              Via2
+[06/24 13:33:22    405s]     161                           Metal8
+[06/24 13:33:22    405s]     23                              Via1
+[06/24 13:33:22    405s]     171                             Via8
+[06/24 13:33:22    405s]     37                            Metal2
+[06/24 13:33:22    405s]     94                            Metal5
+[06/24 13:33:22    405s]     148                             Via7
+[06/24 13:33:22    405s]     14                            Metal1
+[06/24 13:33:22    405s]     15                            Metal1
+[06/24 13:33:22    405s]     72                            Metal4
+[06/24 13:33:22    405s]     91                              Via4
+[06/24 13:33:22    405s]     150                             Via7
+[06/24 13:33:22    405s]     16                            Metal1
+[06/24 13:33:22    405s]     73                            Metal4
+[06/24 13:33:22    405s]     159                           Metal8
+[06/24 13:33:22    405s]     26                              Via1
+[06/24 13:33:22    405s]     151                             Via7
+[06/24 13:33:22    405s]     17                            Metal1
+[06/24 13:33:22    405s]     74                            Metal4
+[06/24 13:33:22    405s]     1                               Cont
+[06/24 13:33:22    405s]     162                           Metal8
+[06/24 13:33:22    405s]     24                              Via1
+[06/24 13:33:22    405s]     140                           Metal7
+[06/24 13:33:22    405s]     2                               Cont
+[06/24 13:33:22    405s]     163                           Metal8
+[06/24 13:33:22    405s]     25                              Via1
+[06/24 13:33:22    405s]     56                            Metal3
+[06/24 13:33:22    405s]     57                            Metal3
+[06/24 13:33:22    405s]     114                           Metal6
+[06/24 13:33:22    405s]     58                            Metal3
+[06/24 13:33:22    405s]     115                           Metal6
+[06/24 13:33:22    405s]     59                            Metal3
+[06/24 13:33:22    405s]     116                           Metal6
+[06/24 13:33:22    405s]     65                              Via3
+[06/24 13:33:22    405s]     66                              Via3
+[06/24 13:33:22    405s]     67                              Via3
+[06/24 13:33:22    405s]     68                              Via3
+[06/24 13:33:22    405s]     75                            Metal4
+[06/24 13:33:22    405s]     76                            Metal4
+[06/24 13:33:22    405s]     77                            Metal4
+[06/24 13:33:22    405s]     78                            Metal4
+[06/24 13:33:22    405s]     79                            Metal4
+[06/24 13:33:22    405s]     80                            Metal4
+[06/24 13:33:22    405s]     87                              Via4
+[06/24 13:33:22    405s]     89                              Via4
+[06/24 13:33:22    405s]     96                            Metal5
+[06/24 13:33:22    405s]     97                            Metal5
+[06/24 13:33:22    405s]     98                            Metal5
+[06/24 13:33:22    405s]     99                            Metal5
+[06/24 13:33:22    405s]     100                           Metal5
+[06/24 13:33:22    405s]     101                           Metal5
+[06/24 13:33:22    405s]     108                             Via5
+[06/24 13:33:22    405s]     110                             Via5
+[06/24 13:33:22    405s]     117                           Metal6
+[06/24 13:33:22    405s]     189                           Metal9
+[06/24 13:33:22    405s]     188                           Metal9
+[06/24 13:33:22    405s]     187                           Metal9
+[06/24 13:33:22    405s]     186                           Metal9
+[06/24 13:33:22    405s]     168                           Metal8
+[06/24 13:33:22    405s]     167                           Metal8
+[06/24 13:33:22    405s]     166                           Metal8
+[06/24 13:33:22    405s]     165                           Metal8
+[06/24 13:33:22    405s]     147                           Metal7
+[06/24 13:33:22    405s]     146                           Metal7
+[06/24 13:33:22    405s]     145                           Metal7
+[06/24 13:33:22    405s]     144                           Metal7
+[06/24 13:33:22    405s]     63                            Metal3
+[06/24 13:33:22    405s]     62                            Metal3
+[06/24 13:33:22    405s]     39                            Metal2
+[06/24 13:33:22    405s]     105                           Metal5
+[06/24 13:33:22    405s]     103                           Metal5
+[06/24 13:33:22    405s]     123                           Metal6
+[06/24 13:33:22    405s]     42                            Metal2
+[06/24 13:33:22    405s]     41                            Metal2
+[06/24 13:33:22    405s]     40                            Metal2
+[06/24 13:33:22    405s]     20                            Metal1
+[06/24 13:33:22    405s]     60                            Metal3
+[06/24 13:33:22    405s]     18                            Metal1
+[06/24 13:33:22    405s]     61                            Metal3
+[06/24 13:33:22    405s]     102                           Metal5
+[06/24 13:33:22    405s]     21                            Metal1
+[06/24 13:33:22    405s]     19                            Metal1
+[06/24 13:33:22    405s]     81                            Metal4
+[06/24 13:33:22    405s]     104                           Metal5
+[06/24 13:33:22    405s]     82                            Metal4
+[06/24 13:33:22    405s]     83                            Metal4
+[06/24 13:33:22    405s]     84                            Metal4
+[06/24 13:33:22    405s]     124                           Metal6
+[06/24 13:33:22    405s]     125                           Metal6
+[06/24 13:33:22    405s]     126                           Metal6
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Stream Out Information Processed for GDS version 3:
+[06/24 13:33:22    405s] Units: 2000 DBU
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Object                             Count
+[06/24 13:33:22    405s] ----------------------------------------
+[06/24 13:33:22    405s] Instances                            170
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Ports/Pins                            19
+[06/24 13:33:22    405s]     metal layer Metal2                 8
+[06/24 13:33:22    405s]     metal layer Metal3                 8
+[06/24 13:33:22    405s]     metal layer Metal4                 3
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Nets                                 808
+[06/24 13:33:22    405s]     metal layer Metal2               421
+[06/24 13:33:22    405s]     metal layer Metal3               374
+[06/24 13:33:22    405s]     metal layer Metal4                13
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s]     Via Instances                   1117
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Special Nets                          69
+[06/24 13:33:22    405s]     metal layer Metal1                45
+[06/24 13:33:22    405s]     metal layer Metal8                12
+[06/24 13:33:22    405s]     metal layer Metal9                12
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s]     Via Instances                    282
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Metal Fills                            0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s]     Via Instances                      0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Metal FillOPCs                         0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s]     Via Instances                      0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Metal FillDRCs                         0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s]     Via Instances                      0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Text                                 174
+[06/24 13:33:22    405s]     metal layer Metal1                 2
+[06/24 13:33:22    405s]     metal layer Metal2               116
+[06/24 13:33:22    405s]     metal layer Metal3                53
+[06/24 13:33:22    405s]     metal layer Metal4                 3
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Blockages                              0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Custom Text                            0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Custom Box                             0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] Trim Metal                             0
+[06/24 13:33:22    405s] 
+[06/24 13:33:22    405s] ######Streamout is finished!
+[06/24 13:34:04    418s] <CMD> reset_parasitics
+[06/24 13:34:04    418s] Reset Parastics called with the command reset_parasiticsPerforming RC Extraction ...
+[06/24 13:34:04    418s] <CMD> extractRC
+[06/24 13:34:04    418s] Extraction called for design 'booth_multiplier' of instances=170 and nets=156 using extraction engine 'preRoute' .
+[06/24 13:34:04    418s] **WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+[06/24 13:34:04    418s] Type 'man IMPEXT-3530' for more detail.
+[06/24 13:34:04    418s] PreRoute RC Extraction called for design booth_multiplier.
+[06/24 13:34:04    418s] RC Extraction called in multi-corner(1) mode.
+[06/24 13:34:04    418s] RCMode: PreRoute
+[06/24 13:34:04    418s]       RC Corner Indexes            0   
+[06/24 13:34:04    418s] Capacitance Scaling Factor   : 1.00000 
+[06/24 13:34:04    418s] Resistance Scaling Factor    : 1.00000 
+[06/24 13:34:04    418s] Clock Cap. Scaling Factor    : 1.00000 
+[06/24 13:34:04    418s] Clock Res. Scaling Factor    : 1.00000 
+[06/24 13:34:04    418s] Shrink Factor                : 1.00000
+[06/24 13:34:04    418s] PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+[06/24 13:34:04    418s] Using capacitance table file ...
+[06/24 13:34:04    418s] 
+[06/24 13:34:04    418s] Trim Metal Layers:
+[06/24 13:34:04    418s] LayerId::1 widthSet size::4
+[06/24 13:34:04    418s] LayerId::2 widthSet size::4
+[06/24 13:34:04    418s] LayerId::3 widthSet size::4
+[06/24 13:34:04    418s] LayerId::4 widthSet size::4
+[06/24 13:34:04    418s] LayerId::5 widthSet size::4
+[06/24 13:34:04    418s] LayerId::6 widthSet size::4
+[06/24 13:34:04    418s] LayerId::7 widthSet size::4
+[06/24 13:34:04    418s] LayerId::8 widthSet size::4
+[06/24 13:34:04    418s] LayerId::9 widthSet size::3
+[06/24 13:34:04    418s] Updating RC grid for preRoute extraction ...
+[06/24 13:34:04    418s] eee: pegSigSF::1.070000
+[06/24 13:34:04    418s] Initializing multi-corner capacitance tables ... 
+[06/24 13:34:04    418s] Initializing multi-corner resistance tables ...
+[06/24 13:34:04    418s] eee: l::1 avDens::0.075777 usedTrk::27.279694 availTrk::360.000000 sigTrk::27.279694
+[06/24 13:34:04    418s] eee: l::2 avDens::0.067460 usedTrk::36.428352 availTrk::540.000000 sigTrk::36.428352
+[06/24 13:34:04    418s] eee: l::3 avDens::0.061905 usedTrk::39.000000 availTrk::630.000000 sigTrk::39.000000
+[06/24 13:34:04    418s] eee: l::4 avDens::0.028380 usedTrk::10.216667 availTrk::360.000000 sigTrk::10.216667
+[06/24 13:34:04    418s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:34:04    418s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:34:04    418s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:34:04    418s] eee: l::8 avDens::0.178008 usedTrk::21.360920 availTrk::120.000000 sigTrk::21.360920
+[06/24 13:34:04    418s] eee: l::9 avDens::0.182452 usedTrk::21.894253 availTrk::120.000000 sigTrk::21.894253
+[06/24 13:34:04    418s] {RT rc_corner 0 9 9 {8 0} 1}
+[06/24 13:34:04    418s] eee: LAM: n=40 LLS=2-3 HLS=3-5 rDens=0.000000 uaWl=1.000000 uaWlH=0.057545 aWlH=0.000000 lMod=0 pMax=0.807900 pMod=83 wcR=0.700000 newSi=0.001600 wHLS=1.750000 siPrev=0 viaL=0.000000
+[06/24 13:34:04    418s] PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1709.039M)
+[06/24 13:34:04    418s] <CMD> rcOut -spef booth_multiplier.spef -rc_corner rc_corner
+[06/24 13:35:32    423s] <CMD> all_hold_analysis_views 
+[06/24 13:35:32    423s] <CMD> all_setup_analysis_views 
+[06/24 13:35:45    426s] <CMD> write_sdf  -ideal_clock_network booth_multiplier.sdf
+[06/24 13:35:45    426s] **WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+[06/24 13:35:45    426s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[06/24 13:35:45    426s] #################################################################################
+[06/24 13:35:45    426s] # Design Stage: PreRoute
+[06/24 13:35:45    426s] # Design Name: booth_multiplier
+[06/24 13:35:45    426s] # Design Mode: 90nm
+[06/24 13:35:45    426s] # Analysis Mode: MMMC Non-OCV 
+[06/24 13:35:45    426s] # Parasitics Mode: No SPEF/RCDB 
+[06/24 13:35:45    426s] # Signoff Settings: SI Off 
+[06/24 13:35:45    426s] #################################################################################
+[06/24 13:35:45    426s] Topological Sorting (REAL = 0:00:00.0, MEM = 1781.7M, InitMEM = 1780.7M)
+[06/24 13:35:45    426s] Start delay calculation (fullDC) (1 T). (MEM=1781.66)
+[06/24 13:35:45    426s] siFlow : Timing analysis mode is single, using late cdB files
+[06/24 13:35:45    426s] Start AAE Lib Loading. (MEM=1793.27)
+[06/24 13:35:45    426s] End AAE Lib Loading. (MEM=1831.43 CPU=0:00:00.0 Real=0:00:00.0)
+[06/24 13:35:45    426s] End AAE Lib Interpolated Model. (MEM=1831.43 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/24 13:35:45    426s] Total number of fetched objects 153
+[06/24 13:35:45    426s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/24 13:35:45    426s] End delay calculation. (MEM=1943.89 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/24 13:35:45    426s] End delay calculation (fullDC). (MEM=1943.89 CPU=0:00:00.1 REAL=0:00:00.0)
+[06/24 13:35:45    426s] *** CDM Built up (cpu=0:00:00.2  real=0:00:00.0  mem= 1943.9M) ***
+[06/24 13:43:45    452s] <CMD> fit
+[06/24 13:44:23    460s] <CMD> saveDesign booth_multiplier.enc
+[06/24 13:44:23    460s] #% Begin save design ... (date=06/24 13:44:23, mem=1582.1M)
+[06/24 13:44:23    460s] % Begin Save ccopt configuration ... (date=06/24 13:44:23, mem=1582.1M)
+[06/24 13:44:23    460s] % End Save ccopt configuration ... (date=06/24 13:44:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.3M, current mem=1582.3M)
+[06/24 13:44:23    460s] % Begin Save netlist data ... (date=06/24 13:44:23, mem=1582.3M)
+[06/24 13:44:23    460s] Writing Binary DB to booth_multiplier.enc.dat/booth_multiplier.v.bin in single-threaded mode...
+[06/24 13:44:23    460s] % End Save netlist data ... (date=06/24 13:44:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.4M, current mem=1582.4M)
+[06/24 13:44:23    460s] Saving symbol-table file ...
+[06/24 13:44:23    460s] Saving congestion map file booth_multiplier.enc.dat/booth_multiplier.route.congmap.gz ...
+[06/24 13:44:23    460s] % Begin Save AAE data ... (date=06/24 13:44:23, mem=1582.7M)
+[06/24 13:44:23    460s] Saving AAE Data ...
+[06/24 13:44:23    460s] % End Save AAE data ... (date=06/24 13:44:23, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.7M, current mem=1582.7M)
+[06/24 13:44:24    460s] Saving preference file booth_multiplier.enc.dat/gui.pref.tcl ...
+[06/24 13:44:24    460s] Saving mode setting ...
+[06/24 13:44:24    460s] Saving global file ...
+[06/24 13:44:24    460s] % Begin Save floorplan data ... (date=06/24 13:44:24, mem=1582.8M)
+[06/24 13:44:24    460s] Saving floorplan file ...
+[06/24 13:44:24    460s] Convert 0 swires and 0 svias from compressed groups
+[06/24 13:44:24    460s] % End Save floorplan data ... (date=06/24 13:44:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.8M, current mem=1582.8M)
+[06/24 13:44:24    460s] Saving PG file booth_multiplier.enc.dat/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on Wed Jun 24 13:44:24 2026)
+[06/24 13:44:24    460s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1869.8M) ***
+[06/24 13:44:24    460s] Saving Drc markers ...
+[06/24 13:44:24    460s] ... No Drc file written since there is no markers found.
+[06/24 13:44:24    460s] % Begin Save placement data ... (date=06/24 13:44:24, mem=1582.8M)
+[06/24 13:44:24    460s] ** Saving stdCellPlacement_binary (version# 2) ...
+[06/24 13:44:24    460s] Save Adaptive View Pruning View Names to Binary file
+[06/24 13:44:24    460s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1872.8M) ***
+[06/24 13:44:24    460s] % End Save placement data ... (date=06/24 13:44:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.8M, current mem=1582.8M)
+[06/24 13:44:24    460s] % Begin Save routing data ... (date=06/24 13:44:24, mem=1582.8M)
+[06/24 13:44:24    460s] Saving route file ...
+[06/24 13:44:24    460s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1869.8M) ***
+[06/24 13:44:24    460s] % End Save routing data ... (date=06/24 13:44:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.9M, current mem=1582.9M)
+[06/24 13:44:24    460s] Saving property file booth_multiplier.enc.dat/booth_multiplier.prop
+[06/24 13:44:24    460s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1872.8M) ***
+[06/24 13:44:24    460s] % Begin Save power constraints data ... (date=06/24 13:44:24, mem=1582.9M)
+[06/24 13:44:24    460s] % End Save power constraints data ... (date=06/24 13:44:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=1582.9M, current mem=1582.9M)
+[06/24 13:44:24    460s] Generated self-contained design booth_multiplier.enc.dat
+[06/24 13:44:24    460s] #% End save design ... (date=06/24 13:44:24, total cpu=0:00:00.4, real=0:00:01.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:24    460s] *** Message Summary: 0 warning(s), 0 error(s)
+[06/24 13:44:24    460s] 
+[06/24 13:44:24    460s] <CMD> saveDesign booth_multiplier.enc
+[06/24 13:44:24    460s] #% Begin save design ... (date=06/24 13:44:24, mem=1583.6M)
+[06/24 13:44:24    460s] % Begin Save ccopt configuration ... (date=06/24 13:44:24, mem=1583.6M)
+[06/24 13:44:25    460s] % End Save ccopt configuration ... (date=06/24 13:44:24, total cpu=0:00:00.0, real=0:00:01.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:25    460s] % Begin Save netlist data ... (date=06/24 13:44:25, mem=1583.6M)
+[06/24 13:44:25    460s] Writing Binary DB to booth_multiplier.enc.dat.tmp/booth_multiplier.v.bin in single-threaded mode...
+[06/24 13:44:25    460s] % End Save netlist data ... (date=06/24 13:44:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:25    460s] Saving symbol-table file ...
+[06/24 13:44:25    460s] Saving congestion map file booth_multiplier.enc.dat.tmp/booth_multiplier.route.congmap.gz ...
+[06/24 13:44:25    460s] % Begin Save AAE data ... (date=06/24 13:44:25, mem=1583.6M)
+[06/24 13:44:25    460s] Saving AAE Data ...
+[06/24 13:44:25    460s] % End Save AAE data ... (date=06/24 13:44:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:25    460s] Saving preference file booth_multiplier.enc.dat.tmp/gui.pref.tcl ...
+[06/24 13:44:25    460s] Saving mode setting ...
+[06/24 13:44:25    460s] Saving global file ...
+[06/24 13:44:25    460s] % Begin Save floorplan data ... (date=06/24 13:44:25, mem=1583.6M)
+[06/24 13:44:25    460s] Saving floorplan file ...
+[06/24 13:44:25    460s] Convert 0 swires and 0 svias from compressed groups
+[06/24 13:44:25    460s] % End Save floorplan data ... (date=06/24 13:44:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:25    460s] Saving PG file booth_multiplier.enc.dat.tmp/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on Wed Jun 24 13:44:25 2026)
+[06/24 13:44:25    460s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1880.4M) ***
+[06/24 13:44:25    460s] Saving Drc markers ...
+[06/24 13:44:25    460s] ... No Drc file written since there is no markers found.
+[06/24 13:44:25    460s] % Begin Save placement data ... (date=06/24 13:44:25, mem=1583.6M)
+[06/24 13:44:25    460s] ** Saving stdCellPlacement_binary (version# 2) ...
+[06/24 13:44:25    460s] Save Adaptive View Pruning View Names to Binary file
+[06/24 13:44:25    460s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1883.4M) ***
+[06/24 13:44:25    460s] % End Save placement data ... (date=06/24 13:44:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:25    460s] % Begin Save routing data ... (date=06/24 13:44:25, mem=1583.6M)
+[06/24 13:44:25    460s] Saving route file ...
+[06/24 13:44:25    460s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1880.4M) ***
+[06/24 13:44:25    460s] % End Save routing data ... (date=06/24 13:44:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:25    460s] Saving property file booth_multiplier.enc.dat.tmp/booth_multiplier.prop
+[06/24 13:44:25    460s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1883.4M) ***
+[06/24 13:44:25    460s] % Begin Save power constraints data ... (date=06/24 13:44:25, mem=1583.6M)
+[06/24 13:44:25    460s] % End Save power constraints data ... (date=06/24 13:44:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:26    461s] Generated self-contained design booth_multiplier.enc.dat.tmp
+[06/24 13:44:26    461s] #% End save design ... (date=06/24 13:44:26, total cpu=0:00:00.4, real=0:00:02.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:26    461s] *** Message Summary: 0 warning(s), 0 error(s)
+[06/24 13:44:26    461s] 
+[06/24 13:44:26    461s] <CMD> saveDesign booth_multiplier.enc
+[06/24 13:44:26    461s] #% Begin save design ... (date=06/24 13:44:26, mem=1583.6M)
+[06/24 13:44:26    461s] % Begin Save ccopt configuration ... (date=06/24 13:44:26, mem=1583.6M)
+[06/24 13:44:26    461s] % End Save ccopt configuration ... (date=06/24 13:44:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.6M, current mem=1583.6M)
+[06/24 13:44:26    461s] % Begin Save netlist data ... (date=06/24 13:44:26, mem=1583.6M)
+[06/24 13:44:26    461s] Writing Binary DB to booth_multiplier.enc.dat.tmp/booth_multiplier.v.bin in single-threaded mode...
+[06/24 13:44:26    461s] % End Save netlist data ... (date=06/24 13:44:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:26    461s] Saving symbol-table file ...
+[06/24 13:44:26    461s] Saving congestion map file booth_multiplier.enc.dat.tmp/booth_multiplier.route.congmap.gz ...
+[06/24 13:44:26    461s] % Begin Save AAE data ... (date=06/24 13:44:26, mem=1583.7M)
+[06/24 13:44:26    461s] Saving AAE Data ...
+[06/24 13:44:26    461s] % End Save AAE data ... (date=06/24 13:44:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:26    461s] Saving preference file booth_multiplier.enc.dat.tmp/gui.pref.tcl ...
+[06/24 13:44:26    461s] Saving mode setting ...
+[06/24 13:44:26    461s] Saving global file ...
+[06/24 13:44:26    461s] % Begin Save floorplan data ... (date=06/24 13:44:26, mem=1583.7M)
+[06/24 13:44:26    461s] Saving floorplan file ...
+[06/24 13:44:26    461s] Convert 0 swires and 0 svias from compressed groups
+[06/24 13:44:26    461s] % End Save floorplan data ... (date=06/24 13:44:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:26    461s] Saving PG file booth_multiplier.enc.dat.tmp/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on Wed Jun 24 13:44:26 2026)
+[06/24 13:44:26    461s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1882.0M) ***
+[06/24 13:44:26    461s] Saving Drc markers ...
+[06/24 13:44:26    461s] ... No Drc file written since there is no markers found.
+[06/24 13:44:26    461s] % Begin Save placement data ... (date=06/24 13:44:26, mem=1583.7M)
+[06/24 13:44:26    461s] ** Saving stdCellPlacement_binary (version# 2) ...
+[06/24 13:44:26    461s] Save Adaptive View Pruning View Names to Binary file
+[06/24 13:44:26    461s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1885.0M) ***
+[06/24 13:44:26    461s] % End Save placement data ... (date=06/24 13:44:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:26    461s] % Begin Save routing data ... (date=06/24 13:44:26, mem=1583.7M)
+[06/24 13:44:26    461s] Saving route file ...
+[06/24 13:44:27    461s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:01.0 mem=1882.0M) ***
+[06/24 13:44:27    461s] % End Save routing data ... (date=06/24 13:44:27, total cpu=0:00:00.0, real=0:00:01.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:27    461s] Saving property file booth_multiplier.enc.dat.tmp/booth_multiplier.prop
+[06/24 13:44:27    461s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1885.0M) ***
+[06/24 13:44:27    461s] % Begin Save power constraints data ... (date=06/24 13:44:27, mem=1583.7M)
+[06/24 13:44:27    461s] % End Save power constraints data ... (date=06/24 13:44:27, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:27    461s] Generated self-contained design booth_multiplier.enc.dat.tmp
+[06/24 13:44:27    461s] #% End save design ... (date=06/24 13:44:27, total cpu=0:00:00.4, real=0:00:01.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:27    461s] *** Message Summary: 0 warning(s), 0 error(s)
+[06/24 13:44:27    461s] 
+[06/24 13:44:27    461s] <CMD> saveDesign booth_multiplier.enc
+[06/24 13:44:27    461s] #% Begin save design ... (date=06/24 13:44:27, mem=1583.7M)
+[06/24 13:44:27    461s] % Begin Save ccopt configuration ... (date=06/24 13:44:27, mem=1583.7M)
+[06/24 13:44:27    461s] % End Save ccopt configuration ... (date=06/24 13:44:27, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:27    461s] % Begin Save netlist data ... (date=06/24 13:44:27, mem=1583.7M)
+[06/24 13:44:27    461s] Writing Binary DB to booth_multiplier.enc.dat.tmp/booth_multiplier.v.bin in single-threaded mode...
+[06/24 13:44:27    461s] % End Save netlist data ... (date=06/24 13:44:27, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:27    461s] Saving symbol-table file ...
+[06/24 13:44:27    461s] Saving congestion map file booth_multiplier.enc.dat.tmp/booth_multiplier.route.congmap.gz ...
+[06/24 13:44:27    461s] % Begin Save AAE data ... (date=06/24 13:44:27, mem=1583.7M)
+[06/24 13:44:27    461s] Saving AAE Data ...
+[06/24 13:44:27    461s] % End Save AAE data ... (date=06/24 13:44:27, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:27    461s] Saving preference file booth_multiplier.enc.dat.tmp/gui.pref.tcl ...
+[06/24 13:44:27    461s] Saving mode setting ...
+[06/24 13:44:27    461s] Saving global file ...
+[06/24 13:44:27    461s] % Begin Save floorplan data ... (date=06/24 13:44:27, mem=1583.7M)
+[06/24 13:44:27    461s] Saving floorplan file ...
+[06/24 13:44:27    461s] Convert 0 swires and 0 svias from compressed groups
+[06/24 13:44:28    461s] % End Save floorplan data ... (date=06/24 13:44:28, total cpu=0:00:00.0, real=0:00:01.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:28    461s] Saving PG file booth_multiplier.enc.dat.tmp/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on Wed Jun 24 13:44:28 2026)
+[06/24 13:44:28    461s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1881.5M) ***
+[06/24 13:44:28    461s] Saving Drc markers ...
+[06/24 13:44:28    461s] ... No Drc file written since there is no markers found.
+[06/24 13:44:28    461s] % Begin Save placement data ... (date=06/24 13:44:28, mem=1583.7M)
+[06/24 13:44:28    461s] ** Saving stdCellPlacement_binary (version# 2) ...
+[06/24 13:44:28    461s] Save Adaptive View Pruning View Names to Binary file
+[06/24 13:44:28    461s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1884.5M) ***
+[06/24 13:44:28    461s] % End Save placement data ... (date=06/24 13:44:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:28    461s] % Begin Save routing data ... (date=06/24 13:44:28, mem=1583.7M)
+[06/24 13:44:28    461s] Saving route file ...
+[06/24 13:44:28    461s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1881.5M) ***
+[06/24 13:44:28    461s] % End Save routing data ... (date=06/24 13:44:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:28    461s] Saving property file booth_multiplier.enc.dat.tmp/booth_multiplier.prop
+[06/24 13:44:28    461s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1884.5M) ***
+[06/24 13:44:28    461s] % Begin Save power constraints data ... (date=06/24 13:44:28, mem=1583.7M)
+[06/24 13:44:28    461s] % End Save power constraints data ... (date=06/24 13:44:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:28    461s] Generated self-contained design booth_multiplier.enc.dat.tmp
+[06/24 13:44:28    461s] #% End save design ... (date=06/24 13:44:28, total cpu=0:00:00.4, real=0:00:01.0, peak res=1583.7M, current mem=1583.7M)
+[06/24 13:44:28    461s] *** Message Summary: 0 warning(s), 0 error(s)
+[06/24 13:44:28    461s] 
+[06/24 13:44:28    461s] **ERROR: (IMPSYT-6000):	No Object Selected.
+[06/24 13:44:53    465s] <CMD> streamOut booth_route.gds -libName DesignLib -units 2000 -mode ALL
+[06/24 13:44:53    465s] Parse flat map file...
+[06/24 13:44:53    465s] Writing GDSII file ...
+[06/24 13:44:53    465s] 	****** db unit per micron = 2000 ******
+[06/24 13:44:53    465s] 	****** output gds2 file unit per micron = 2000 ******
+[06/24 13:44:53    465s] 	****** unit scaling factor = 1 ******
+[06/24 13:44:53    465s] Output for instance
+[06/24 13:44:53    465s] Output for bump
+[06/24 13:44:53    465s] Output for physical terminals
+[06/24 13:44:53    465s] Output for logical terminals
+[06/24 13:44:53    465s] Output for regular nets
+[06/24 13:44:53    465s] Output for special nets and metal fills
+[06/24 13:44:53    465s] Output for via structure generation total number 15
+[06/24 13:44:53    465s] Statistics for GDS generated (version 3)
+[06/24 13:44:53    465s] ----------------------------------------
+[06/24 13:44:53    465s] Stream Out Layer Mapping Information:
+[06/24 13:44:53    465s] GDS Layer Number          GDS Layer Name
+[06/24 13:44:53    465s] ----------------------------------------
+[06/24 13:44:53    465s]     191                             COMP
+[06/24 13:44:53    465s]     192                          DIEAREA
+[06/24 13:44:53    465s]     181                           Metal9
+[06/24 13:44:53    465s]     179                           Metal9
+[06/24 13:44:53    465s]     178                           Metal9
+[06/24 13:44:53    465s]     177                           Metal9
+[06/24 13:44:53    465s]     176                           Metal9
+[06/24 13:44:53    465s]     175                             Via8
+[06/24 13:44:53    465s]     174                             Via8
+[06/24 13:44:53    465s]     170                             Via8
+[06/24 13:44:53    465s]     160                           Metal8
+[06/24 13:44:53    465s]     158                           Metal8
+[06/24 13:44:53    465s]     157                           Metal8
+[06/24 13:44:53    465s]     156                           Metal8
+[06/24 13:44:53    465s]     155                           Metal8
+[06/24 13:44:53    465s]     154                             Via7
+[06/24 13:44:53    465s]     153                             Via7
+[06/24 13:44:53    465s]     149                             Via7
+[06/24 13:44:53    465s]     139                           Metal7
+[06/24 13:44:53    465s]     137                           Metal7
+[06/24 13:44:53    465s]     136                           Metal7
+[06/24 13:44:53    465s]     135                           Metal7
+[06/24 13:44:53    465s]     134                           Metal7
+[06/24 13:44:53    465s]     133                             Via6
+[06/24 13:44:53    465s]     132                             Via6
+[06/24 13:44:53    465s]     131                             Via6
+[06/24 13:44:53    465s]     130                             Via6
+[06/24 13:44:53    465s]     129                             Via6
+[06/24 13:44:53    465s]     128                             Via6
+[06/24 13:44:53    465s]     127                             Via6
+[06/24 13:44:53    465s]     122                           Metal6
+[06/24 13:44:53    465s]     121                           Metal6
+[06/24 13:44:53    465s]     120                           Metal6
+[06/24 13:44:53    465s]     119                           Metal6
+[06/24 13:44:53    465s]     118                           Metal6
+[06/24 13:44:53    465s]     53                            Metal3
+[06/24 13:44:53    465s]     52                            Metal3
+[06/24 13:44:53    465s]     185                           Metal9
+[06/24 13:44:53    465s]     48                              Via2
+[06/24 13:44:53    465s]     29                            Metal2
+[06/24 13:44:53    465s]     180                           Metal9
+[06/24 13:44:53    465s]     47                              Via2
+[06/24 13:44:53    465s]     182                           Metal9
+[06/24 13:44:53    465s]     44                              Via2
+[06/24 13:44:53    465s]     43                              Via2
+[06/24 13:44:53    465s]     172                             Via8
+[06/24 13:44:53    465s]     38                            Metal2
+[06/24 13:44:53    465s]     95                            Metal5
+[06/24 13:44:53    465s]     36                            Metal2
+[06/24 13:44:53    465s]     93                            Metal5
+[06/24 13:44:53    465s]     112                             Via5
+[06/24 13:44:53    465s]     55                            Metal3
+[06/24 13:44:53    465s]     113                           Metal6
+[06/24 13:44:53    465s]     32                            Metal2
+[06/24 13:44:53    465s]     54                            Metal3
+[06/24 13:44:53    465s]     31                            Metal2
+[06/24 13:44:53    465s]     107                             Via5
+[06/24 13:44:53    465s]     30                            Metal2
+[06/24 13:44:53    465s]     49                              Via2
+[06/24 13:44:53    465s]     106                             Via5
+[06/24 13:44:53    465s]     33                            Metal2
+[06/24 13:44:53    465s]     109                             Via5
+[06/24 13:44:53    465s]     10                            Metal1
+[06/24 13:44:53    465s]     86                              Via4
+[06/24 13:44:53    465s]     50                            Metal3
+[06/24 13:44:53    465s]     69                              Via3
+[06/24 13:44:53    465s]     143                           Metal7
+[06/24 13:44:53    465s]     6                               Cont
+[06/24 13:44:53    465s]     169                             Via8
+[06/24 13:44:53    465s]     35                            Metal2
+[06/24 13:44:53    465s]     8                             Metal1
+[06/24 13:44:53    465s]     164                           Metal8
+[06/24 13:44:53    465s]     27                              Via1
+[06/24 13:44:53    465s]     141                           Metal7
+[06/24 13:44:53    465s]     3                               Cont
+[06/24 13:44:53    465s]     51                            Metal3
+[06/24 13:44:53    465s]     70                              Via3
+[06/24 13:44:53    465s]     7                               Cont
+[06/24 13:44:53    465s]     64                              Via3
+[06/24 13:44:53    465s]     173                             Via8
+[06/24 13:44:53    465s]     34                            Metal2
+[06/24 13:44:53    465s]     92                            Metal5
+[06/24 13:44:53    465s]     111                             Via5
+[06/24 13:44:53    465s]     11                            Metal1
+[06/24 13:44:53    465s]     142                           Metal7
+[06/24 13:44:53    465s]     4                               Cont
+[06/24 13:44:53    465s]     9                             Metal1
+[06/24 13:44:53    465s]     28                              Via1
+[06/24 13:44:53    465s]     85                              Via4
+[06/24 13:44:53    465s]     138                           Metal7
+[06/24 13:44:53    465s]     5                               Cont
+[06/24 13:44:53    465s]     12                            Metal1
+[06/24 13:44:53    465s]     88                              Via4
+[06/24 13:44:53    465s]     183                           Metal9
+[06/24 13:44:53    465s]     45                              Via2
+[06/24 13:44:53    465s]     22                              Via1
+[06/24 13:44:53    465s]     152                             Via7
+[06/24 13:44:53    465s]     13                            Metal1
+[06/24 13:44:53    465s]     71                            Metal4
+[06/24 13:44:53    465s]     90                              Via4
+[06/24 13:44:53    465s]     184                           Metal9
+[06/24 13:44:53    465s]     46                              Via2
+[06/24 13:44:53    465s]     161                           Metal8
+[06/24 13:44:53    465s]     23                              Via1
+[06/24 13:44:53    465s]     171                             Via8
+[06/24 13:44:53    465s]     37                            Metal2
+[06/24 13:44:53    465s]     94                            Metal5
+[06/24 13:44:53    465s]     148                             Via7
+[06/24 13:44:53    465s]     14                            Metal1
+[06/24 13:44:53    465s]     15                            Metal1
+[06/24 13:44:53    465s]     72                            Metal4
+[06/24 13:44:53    465s]     91                              Via4
+[06/24 13:44:53    465s]     150                             Via7
+[06/24 13:44:53    465s]     16                            Metal1
+[06/24 13:44:53    465s]     73                            Metal4
+[06/24 13:44:53    465s]     159                           Metal8
+[06/24 13:44:53    465s]     26                              Via1
+[06/24 13:44:53    465s]     151                             Via7
+[06/24 13:44:53    465s]     17                            Metal1
+[06/24 13:44:53    465s]     74                            Metal4
+[06/24 13:44:53    465s]     1                               Cont
+[06/24 13:44:53    465s]     162                           Metal8
+[06/24 13:44:53    465s]     24                              Via1
+[06/24 13:44:53    465s]     140                           Metal7
+[06/24 13:44:53    465s]     2                               Cont
+[06/24 13:44:53    465s]     163                           Metal8
+[06/24 13:44:53    465s]     25                              Via1
+[06/24 13:44:53    465s]     56                            Metal3
+[06/24 13:44:53    465s]     57                            Metal3
+[06/24 13:44:53    465s]     114                           Metal6
+[06/24 13:44:53    465s]     58                            Metal3
+[06/24 13:44:53    465s]     115                           Metal6
+[06/24 13:44:53    465s]     59                            Metal3
+[06/24 13:44:53    465s]     116                           Metal6
+[06/24 13:44:53    465s]     65                              Via3
+[06/24 13:44:53    465s]     66                              Via3
+[06/24 13:44:53    465s]     67                              Via3
+[06/24 13:44:53    465s]     68                              Via3
+[06/24 13:44:53    465s]     75                            Metal4
+[06/24 13:44:53    465s]     76                            Metal4
+[06/24 13:44:53    465s]     77                            Metal4
+[06/24 13:44:53    465s]     78                            Metal4
+[06/24 13:44:53    465s]     79                            Metal4
+[06/24 13:44:53    465s]     80                            Metal4
+[06/24 13:44:53    465s]     87                              Via4
+[06/24 13:44:53    465s]     89                              Via4
+[06/24 13:44:53    465s]     96                            Metal5
+[06/24 13:44:53    465s]     97                            Metal5
+[06/24 13:44:53    465s]     98                            Metal5
+[06/24 13:44:53    465s]     99                            Metal5
+[06/24 13:44:53    465s]     100                           Metal5
+[06/24 13:44:53    465s]     101                           Metal5
+[06/24 13:44:53    465s]     108                             Via5
+[06/24 13:44:53    465s]     110                             Via5
+[06/24 13:44:53    465s]     117                           Metal6
+[06/24 13:44:53    465s]     189                           Metal9
+[06/24 13:44:53    465s]     188                           Metal9
+[06/24 13:44:53    465s]     187                           Metal9
+[06/24 13:44:53    465s]     186                           Metal9
+[06/24 13:44:53    465s]     168                           Metal8
+[06/24 13:44:53    465s]     167                           Metal8
+[06/24 13:44:53    465s]     166                           Metal8
+[06/24 13:44:53    465s]     165                           Metal8
+[06/24 13:44:53    465s]     147                           Metal7
+[06/24 13:44:53    465s]     146                           Metal7
+[06/24 13:44:53    465s]     145                           Metal7
+[06/24 13:44:53    465s]     144                           Metal7
+[06/24 13:44:53    465s]     63                            Metal3
+[06/24 13:44:53    465s]     62                            Metal3
+[06/24 13:44:53    465s]     39                            Metal2
+[06/24 13:44:53    465s]     105                           Metal5
+[06/24 13:44:53    465s]     103                           Metal5
+[06/24 13:44:53    465s]     123                           Metal6
+[06/24 13:44:53    465s]     42                            Metal2
+[06/24 13:44:53    465s]     41                            Metal2
+[06/24 13:44:53    465s]     40                            Metal2
+[06/24 13:44:53    465s]     20                            Metal1
+[06/24 13:44:53    465s]     60                            Metal3
+[06/24 13:44:53    465s]     18                            Metal1
+[06/24 13:44:53    465s]     61                            Metal3
+[06/24 13:44:53    465s]     102                           Metal5
+[06/24 13:44:53    465s]     21                            Metal1
+[06/24 13:44:53    465s]     19                            Metal1
+[06/24 13:44:53    465s]     81                            Metal4
+[06/24 13:44:53    465s]     104                           Metal5
+[06/24 13:44:53    465s]     82                            Metal4
+[06/24 13:44:53    465s]     83                            Metal4
+[06/24 13:44:53    465s]     84                            Metal4
+[06/24 13:44:53    465s]     124                           Metal6
+[06/24 13:44:53    465s]     125                           Metal6
+[06/24 13:44:53    465s]     126                           Metal6
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Stream Out Information Processed for GDS version 3:
+[06/24 13:44:53    465s] Units: 2000 DBU
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Object                             Count
+[06/24 13:44:53    465s] ----------------------------------------
+[06/24 13:44:53    465s] Instances                            170
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Ports/Pins                            19
+[06/24 13:44:53    465s]     metal layer Metal2                 8
+[06/24 13:44:53    465s]     metal layer Metal3                 8
+[06/24 13:44:53    465s]     metal layer Metal4                 3
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Nets                                 808
+[06/24 13:44:53    465s]     metal layer Metal2               421
+[06/24 13:44:53    465s]     metal layer Metal3               374
+[06/24 13:44:53    465s]     metal layer Metal4                13
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s]     Via Instances                   1117
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Special Nets                          69
+[06/24 13:44:53    465s]     metal layer Metal1                45
+[06/24 13:44:53    465s]     metal layer Metal8                12
+[06/24 13:44:53    465s]     metal layer Metal9                12
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s]     Via Instances                    282
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Metal Fills                            0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s]     Via Instances                      0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Metal FillOPCs                         0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s]     Via Instances                      0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Metal FillDRCs                         0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s]     Via Instances                      0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Text                                 174
+[06/24 13:44:53    465s]     metal layer Metal1                 2
+[06/24 13:44:53    465s]     metal layer Metal2               116
+[06/24 13:44:53    465s]     metal layer Metal3                53
+[06/24 13:44:53    465s]     metal layer Metal4                 3
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Blockages                              0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Custom Text                            0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Custom Box                             0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] Trim Metal                             0
+[06/24 13:44:53    465s] 
+[06/24 13:44:53    465s] ######Streamout is finished!
+[06/24 13:45:01    465s] <CMD> zoomBox -30.68100 3.22900 70.34950 52.57800
+[06/24 13:45:18    468s] <CMD> reset_parasitics
+[06/24 13:45:18    468s] Reset Parastics called with the command reset_parasiticsPerforming RC Extraction ...
+[06/24 13:45:18    468s] <CMD> extractRC
+[06/24 13:45:18    468s] Extraction called for design 'booth_multiplier' of instances=170 and nets=156 using extraction engine 'preRoute' .
+[06/24 13:45:18    468s] **WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+[06/24 13:45:18    468s] Type 'man IMPEXT-3530' for more detail.
+[06/24 13:45:18    468s] PreRoute RC Extraction called for design booth_multiplier.
+[06/24 13:45:18    468s] RC Extraction called in multi-corner(1) mode.
+[06/24 13:45:18    468s] RCMode: PreRoute
+[06/24 13:45:18    468s]       RC Corner Indexes            0   
+[06/24 13:45:18    468s] Capacitance Scaling Factor   : 1.00000 
+[06/24 13:45:18    468s] Resistance Scaling Factor    : 1.00000 
+[06/24 13:45:18    468s] Clock Cap. Scaling Factor    : 1.00000 
+[06/24 13:45:18    468s] Clock Res. Scaling Factor    : 1.00000 
+[06/24 13:45:18    468s] Shrink Factor                : 1.00000
+[06/24 13:45:18    468s] PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+[06/24 13:45:18    468s] Using capacitance table file ...
+[06/24 13:45:18    468s] 
+[06/24 13:45:18    468s] Trim Metal Layers:
+[06/24 13:45:18    468s] LayerId::1 widthSet size::4
+[06/24 13:45:18    468s] LayerId::2 widthSet size::4
+[06/24 13:45:18    468s] LayerId::3 widthSet size::4
+[06/24 13:45:18    468s] LayerId::4 widthSet size::4
+[06/24 13:45:18    468s] LayerId::5 widthSet size::4
+[06/24 13:45:18    468s] LayerId::6 widthSet size::4
+[06/24 13:45:18    468s] LayerId::7 widthSet size::4
+[06/24 13:45:18    468s] LayerId::8 widthSet size::4
+[06/24 13:45:18    468s] LayerId::9 widthSet size::3
+[06/24 13:45:18    468s] Updating RC grid for preRoute extraction ...
+[06/24 13:45:18    468s] eee: pegSigSF::1.070000
+[06/24 13:45:18    468s] Initializing multi-corner capacitance tables ... 
+[06/24 13:45:18    468s] Initializing multi-corner resistance tables ...
+[06/24 13:45:18    468s] eee: l::1 avDens::0.075777 usedTrk::27.279694 availTrk::360.000000 sigTrk::27.279694
+[06/24 13:45:18    468s] eee: l::2 avDens::0.067460 usedTrk::36.428352 availTrk::540.000000 sigTrk::36.428352
+[06/24 13:45:18    468s] eee: l::3 avDens::0.061905 usedTrk::39.000000 availTrk::630.000000 sigTrk::39.000000
+[06/24 13:45:18    468s] eee: l::4 avDens::0.028380 usedTrk::10.216667 availTrk::360.000000 sigTrk::10.216667
+[06/24 13:45:18    468s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:45:18    468s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:45:18    468s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[06/24 13:45:18    468s] eee: l::8 avDens::0.178008 usedTrk::21.360920 availTrk::120.000000 sigTrk::21.360920
+[06/24 13:45:18    468s] eee: l::9 avDens::0.182452 usedTrk::21.894253 availTrk::120.000000 sigTrk::21.894253
+[06/24 13:45:18    468s] {RT rc_corner 0 9 9 {8 0} 1}
+[06/24 13:45:18    468s] eee: LAM: n=40 LLS=2-3 HLS=3-5 rDens=0.000000 uaWl=1.000000 uaWlH=0.057545 aWlH=0.000000 lMod=0 pMax=0.807900 pMod=83 wcR=0.700000 newSi=0.001600 wHLS=1.750000 siPrev=0 viaL=0.000000
+[06/24 13:45:18    468s] PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1883.250M)
+[06/24 13:45:18    468s] <CMD> rcOut -spef booth_multiplier.spef -rc_corner rc_corner
+[06/24 13:45:24    468s] <CMD> write_sdf  -ideal_clock_network booth_multiplier.sdf
+[06/24 13:45:24    469s] **WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+[06/24 13:45:24    469s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[06/24 13:45:24    469s] #################################################################################
+[06/24 13:45:24    469s] # Design Stage: PreRoute
+[06/24 13:45:24    469s] # Design Name: booth_multiplier
+[06/24 13:45:24    469s] # Design Mode: 90nm
+[06/24 13:45:24    469s] # Analysis Mode: MMMC Non-OCV 
+[06/24 13:45:24    469s] # Parasitics Mode: No SPEF/RCDB 
+[06/24 13:45:24    469s] # Signoff Settings: SI Off 
+[06/24 13:45:24    469s] #################################################################################
+[06/24 13:45:24    469s] Topological Sorting (REAL = 0:00:00.0, MEM = 1900.1M, InitMEM = 1900.1M)
+[06/24 13:45:24    469s] Start delay calculation (fullDC) (1 T). (MEM=1900.05)
+[06/24 13:45:24    469s] End AAE Lib Interpolated Model. (MEM=1911.66 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/24 13:45:24    469s] Total number of fetched objects 153
+[06/24 13:45:24    469s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/24 13:45:24    469s] End delay calculation. (MEM=1956.89 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/24 13:45:24    469s] End delay calculation (fullDC). (MEM=1956.89 CPU=0:00:00.1 REAL=0:00:00.0)
+[06/24 13:45:24    469s] *** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 1956.9M) ***
+[06/24 13:46:32    472s] <CMD> fit
+[06/24 13:47:27    487s] <CMD> saveNetlist ../day20/booth/booth_physical_netlist.v
+[06/24 13:47:27    487s] Writing Netlist "../day20/booth/booth_physical_netlist.v" ...
+[06/24 13:47:52    489s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Wed Jun 24 13:47:52 2026
+  Total CPU time:     0:08:15
+  Total real time:    1:45:52
+  Peak memory (main): 1628.75MB
+
+[06/24 13:47:52    489s] 
+[06/24 13:47:52    489s] *** Memory Usage v#1 (Current mem = 1955.281M, initial mem = 483.863M) ***
+[06/24 13:47:52    489s] 
+[06/24 13:47:52    489s] *** Summary of all messages that are not suppressed in this session:
+[06/24 13:47:52    489s] Severity  ID               Count  Summary                                  
+[06/24 13:47:52    489s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[06/24 13:47:52    489s] WARNING   IMPLF-105            2  The layer '%s' specified in SAMENET spac...
+[06/24 13:47:52    489s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[06/24 13:47:52    489s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[06/24 13:47:52    489s] WARNING   IMPEXT-3530          2  The process node is not set. Use the com...
+[06/24 13:47:52    489s] ERROR     IMPSYT-6000          2  No Object Selected.                      
+[06/24 13:47:52    489s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[06/24 13:47:52    489s] WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+[06/24 13:47:52    489s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[06/24 13:47:52    489s] WARNING   SDF-808              2  The software is currently operating in a...
+[06/24 13:47:52    489s] *** Message Summary: 972 warning(s), 2 error(s)
+[06/24 13:47:52    489s] 
+[06/24 13:47:52    489s] --- Ending "Innovus" (totcpu=0:08:09, real=1:45:51, mem=1955.3M) ---
